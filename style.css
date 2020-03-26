@@ -1,0 +1,78 @@
+body {
+    transition: background-color 1s ease;
+}
+
+.wrapper {
+    position: relative;
+    border-radius: 10px;
+    margin: 150px auto 0;
+    background-color: #f9fcfb;
+    width: 600px;
+    padding: 30px 40px;
+    transition: height 0.5s ease;
+}
+
+.btn-container {
+    position: relative;
+    margin-top: 15px;
+    height: fit-content;
+}
+
+.quote {
+    transition: color 1s ease;
+}
+
+.quote-container {
+    transition: height 0.5s ease;
+}
+
+.fa-quote-left {
+    float: left;
+}
+
+.fa-quote-right {
+    float: right;
+    position: relative;
+    bottom: 16px;
+}
+
+#text {
+    text-align: center;
+    font-size: 1.875rem;
+    line-height: 37px;
+    font-family: 'Baloo Da 2', cursive;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+#author {
+    position: absolute;
+    right: 40px;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+    width: fit-content;
+}
+
+#new-quote {
+    top: 5px;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #f9fcfb;
+    border: 0;
+    border-radius: 5px;
+    height: fit-content;
+    font-size: 20px;
+    padding: 14px;
+}
+
+#new-quote:hover {
+    cursor: pointer;
+}
+
+#tweet-quote {
+    font-size: 60px;
+    margin: 0;
+    text-decoration: none;
+}
